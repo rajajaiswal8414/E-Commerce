@@ -1,4 +1,4 @@
-package com.cognizant.ecom.service;
+package com.cognizant.ecom.service.impl;
 
 import com.cognizant.ecom.exceptions.APIException;
 import com.cognizant.ecom.exceptions.ResourceNotFoundException;
@@ -6,9 +6,9 @@ import com.cognizant.ecom.model.Category;
 import com.cognizant.ecom.payload.CategoryDTO;
 import com.cognizant.ecom.payload.CategoryResponse;
 import com.cognizant.ecom.repositories.CategoryRepository;
+import com.cognizant.ecom.service.CategoryService;
 import lombok.RequiredArgsConstructor;
 import org.modelmapper.ModelMapper;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
@@ -18,7 +18,7 @@ import java.util.List;
 
 @Service
 @RequiredArgsConstructor
-public class CategoryServiceImpl implements CategoryService{
+public class CategoryServiceImpl implements CategoryService {
     private final CategoryRepository categoryRepository;
     private final ModelMapper modelMapper;
 
