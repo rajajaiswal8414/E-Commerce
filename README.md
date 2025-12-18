@@ -1,10 +1,3 @@
-Below is a **clean, professional, recruiter-friendly README.md** for a **Full-Stack E-Commerce Application (React + Spring Boot)**.
-It is **well structured**, easy to scan, and suitable for GitHub.
-
-You can copy–paste this directly into your repository and update names/URLs as needed.
-
----
-
 # 🛒 E-Commerce Full-Stack Application
 
 A **full-stack e-commerce application** built using **React** and **Spring Boot**, designed to demonstrate real-world implementation of **secure authentication**, **product management**, and **order workflows** with a clean frontend–backend separation.
